@@ -22,3 +22,8 @@
   display: flex;
   justify-content: space-between;
 }
+
+#delete {
+  color: #ff2058;
+  cursor: pointer;
+}
