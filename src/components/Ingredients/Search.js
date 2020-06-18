@@ -23,7 +23,7 @@ const Search = React.memo(props => {
           'GET'
         );
       }
-    }, 500);
+    }, 100);
     return () => {
       clearTimeout(timer);
     };
